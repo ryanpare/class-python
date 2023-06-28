@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+#simple loop to check and see if random number is divisible by another number
 
 smallNumber = 0
 largeNumber = 100
