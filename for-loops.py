@@ -17,3 +17,24 @@ for counter in range(10,1,-2):
 #loop through string
 for char in "Python":
     print(char)
+
+#counting elements
+countItems = 0
+for itervar in [3, 41, 12, 9, 74, 15]:
+    countItems = countItems + 1
+    totalItems = countItems + itervar
+print('Count: ', countItems)
+print("Total", totalItems)
+
+#finding the largest value
+largestValue = None
+print('Before:', largestValue)
+for itervar in [3, 41, 12, 9, 74, 15]:
+    if largestValue is None or itervar > largestValue :
+        largestValue = itervar
+    print('Loop:', itervar, largestValue)
+print('Largest:', largestValue)
+
+dict = {'alpha':1, 'beta':2, 'gamma':3}
+for key in dict:
+  print(key,dict[key])
